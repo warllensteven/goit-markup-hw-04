@@ -68,9 +68,6 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-.menu-contact::before {
-  background-image: url('../images/icons.svg#icon-sobre1');
-}
 .contacts-start {
   color: #757575;
   font-family: 'roboto';
@@ -81,6 +78,10 @@ a {
 }
 .contacts-start:hover {
   color: #2196f3;
+}
+.icon-contacts:hover {
+  color: #2196f3;
+  cursor: pointer;
 }
 .logo {
   color: #2196f3;
@@ -228,6 +229,9 @@ address {
   color: #2196f3;
   cursor: pointer;
 }
+.icon-contacts {
+  margin-right: 8px;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -368,11 +372,20 @@ address {
   padding: 5px;
 }
 
-.icon-section {
+.icon-social {
+  color: #afb1b8;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
   cursor: pointer;
 }
-.icon-instagram:hover svg {
-  fill: var(--accent-color);
+.icon-social:hover {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .section-buttons-main {
   width: 100%;
@@ -395,23 +408,6 @@ address {
   gap: 10px;
   justify-content: space-between;
 }
-.img-card-first {
-  width: 370px;
-  border: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-  text-align: center;
-  padding: 4%;
-  margin-top: 40px;
-}
-.img-card-first h2 {
-  text-align: left;
-  padding: 5%;
-}
-.img-card-first p {
-  text-align: left;
-  padding: 3%;
-}
 .img-card {
   width: 370px;
   background: #ffffff;
@@ -427,9 +423,20 @@ address {
   padding: 5%;
 }
 .img-card p {
+  color: #757575;
   text-align: left;
   padding: 3%;
 }
+.img-card-first:hover {
+  width: 370px;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  padding: 4%;
+  margin-top: 40px;
+}
+
 .clientes h3 {
   color: #212121;
   font-family: 'roboto';
@@ -452,6 +459,26 @@ address {
   padding-top: 2%;
   padding-bottom: 10%;
 }
+.icons-clientes {
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4%;
+}
+.icons-clientes {
+  color: #afb1b8;
+  display: flex;
+  padding: 2%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.icons-clientes:hover {
+  color: #2196f3;
+  background-color: #ffffff;
+  border: 1px solid #2196f3;
+}
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -460,5 +487,37 @@ address {
 .section-footer {
   height: 252px;
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+.social-footer {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+.title-social {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.icon-social-footer {
+  color: #ffffff;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  padding: 20%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  margin: 2px;
+}
+.icon-social-footer:hover {
+  color: #ffffff;
+  background-color: #2196f3;
 }
