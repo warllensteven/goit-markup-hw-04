@@ -483,6 +483,7 @@ address {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-top: 60px;
 }
 .section-footer {
   height: 252px;
@@ -496,6 +497,9 @@ address {
   list-style: none;
   align-items: center;
 }
+.footer-social {
+  margin-top: -100px;
+}
 .title-social {
   color: #ffffff;
   font-family: 'roboto';
@@ -503,19 +507,29 @@ address {
   font-weight: 700px;
   font-size: 14px;
   line-height: 16.41px;
+  margin-bottom: 20px;
 }
+.social-footer {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 5px;
+}
+
 .icon-social-footer {
   color: #ffffff;
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   display: flex;
-  padding: 20%;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
-  margin: 2px;
 }
 .icon-social-footer:hover {
   color: #ffffff;
