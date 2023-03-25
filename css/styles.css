@@ -129,6 +129,12 @@ a {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
+  background-color: #f5f4fa;
+  border-color: #f5f4fa;
+  padding-left: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 14px;
 }
 .buttons-main:hover {
   color: var(--primary-background-color);
@@ -289,6 +295,13 @@ address {
   align-items: center;
   padding: 14%;
   background-color: #f5f4fa;
+}
+.icons-main {
+  color: #212121;
+  cursor: pointer;
+}
+.icons-main:hover {
+  color: #2196f3;
 }
 .section-paragraphs-main {
   width: 100%;
