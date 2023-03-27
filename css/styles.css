@@ -363,20 +363,29 @@ address {
 }
 .img-team {
   background: white;
-  height: 368px;
+  width: 260px;
+  height: 428px;
   box-shadow: 0px 1px 3px 0px #0000001f;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.img-team img {
+  width: 270px;
+  height: 260px;
 }
 .img-team h3 {
   align-items: center;
   text-align: center;
-  padding: 10px;
+  padding-top: 30px;
 }
 .img-team p {
   align-items: center;
   text-align: center;
-  padding: 8px;
+  padding: 16px;
 }
 .icon-section {
+  height: 40px;
   display: flex;
   flex-wrap: nowrap;
   gap: 10px;
@@ -435,12 +444,10 @@ address {
 }
 .img-card h2 {
   text-align: left;
-  padding: 5%;
 }
 .img-card p {
   color: #757575;
   text-align: left;
-  padding: 3%;
 }
 .img-card-first:hover {
   width: 370px;
@@ -501,10 +508,13 @@ address {
   padding-top: 60px;
 }
 .section-footer {
+  width: 1200px;
   height: 252px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 80px;
+  padding-left: 40px;
 }
 .social-footer {
   display: flex;
